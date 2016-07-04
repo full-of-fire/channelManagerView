@@ -34,6 +34,7 @@
        
         return weakSelf.showChannels;
     }];
+    NSLog(@"dff");
     
     // 设置不显示的频道
     [_chanelMangerView setHideChannelDataSource:^NSMutableArray *{
