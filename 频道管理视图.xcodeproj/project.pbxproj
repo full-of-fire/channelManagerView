@@ -15,6 +15,13 @@
 		39373EBC1D23D44F00CCA959 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39373EBA1D23D44F00CCA959 /* LaunchScreen.storyboard */; };
 		39373EC71D23D44F00CCA959 /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39373EC61D23D44F00CCA959 /* ______Tests.m */; };
 		39373ED21D23D44F00CCA959 /* ______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39373ED11D23D44F00CCA959 /* ______UITests.m */; };
+		394E314B1D24A87C009576BB /* YJChannelManagerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 394E314A1D24A87C009576BB /* YJChannelManagerView.m */; };
+		394E314F1D24A92A009576BB /* YJChannelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 394E314D1D24A92A009576BB /* YJChannelCell.m */; };
+		394E31501D24A92A009576BB /* YJChannelCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 394E314E1D24A92A009576BB /* YJChannelCell.xib */; };
+		394E31521D24AA53009576BB /* channel_edit_delete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 394E31511D24AA53009576BB /* channel_edit_delete@2x.png */; };
+		394E31551D24AE70009576BB /* YJChannelHeadSetionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 394E31541D24AE70009576BB /* YJChannelHeadSetionView.m */; };
+		394E31581D24C55A009576BB /* YJButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 394E31571D24C55A009576BB /* YJButton.m */; };
+		394E315B1D24D088009576BB /* YJAddChannelHeadSetionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 394E315A1D24D088009576BB /* YJAddChannelHeadSetionView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,18 @@
 		39373ECD1D23D44F00CCA959 /* 频道管理视图UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "频道管理视图UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		39373ED11D23D44F00CCA959 /* ______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______UITests.m"; sourceTree = "<group>"; };
 		39373ED31D23D44F00CCA959 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		394E31491D24A87C009576BB /* YJChannelManagerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJChannelManagerView.h; sourceTree = "<group>"; };
+		394E314A1D24A87C009576BB /* YJChannelManagerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJChannelManagerView.m; sourceTree = "<group>"; };
+		394E314C1D24A92A009576BB /* YJChannelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJChannelCell.h; sourceTree = "<group>"; };
+		394E314D1D24A92A009576BB /* YJChannelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJChannelCell.m; sourceTree = "<group>"; };
+		394E314E1D24A92A009576BB /* YJChannelCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YJChannelCell.xib; sourceTree = "<group>"; };
+		394E31511D24AA53009576BB /* channel_edit_delete@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "channel_edit_delete@2x.png"; sourceTree = "<group>"; };
+		394E31531D24AE70009576BB /* YJChannelHeadSetionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJChannelHeadSetionView.h; sourceTree = "<group>"; };
+		394E31541D24AE70009576BB /* YJChannelHeadSetionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJChannelHeadSetionView.m; sourceTree = "<group>"; };
+		394E31561D24C55A009576BB /* YJButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJButton.h; sourceTree = "<group>"; };
+		394E31571D24C55A009576BB /* YJButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJButton.m; sourceTree = "<group>"; };
+		394E31591D24D088009576BB /* YJAddChannelHeadSetionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJAddChannelHeadSetionView.h; sourceTree = "<group>"; };
+		394E315A1D24D088009576BB /* YJAddChannelHeadSetionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJAddChannelHeadSetionView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +120,22 @@
 		39373EAB1D23D44F00CCA959 /* 频道管理视图 */ = {
 			isa = PBXGroup;
 			children = (
+				394E31511D24AA53009576BB /* channel_edit_delete@2x.png */,
 				39373EAF1D23D44F00CCA959 /* AppDelegate.h */,
 				39373EB01D23D44F00CCA959 /* AppDelegate.m */,
 				39373EB21D23D44F00CCA959 /* ViewController.h */,
 				39373EB31D23D44F00CCA959 /* ViewController.m */,
+				394E31561D24C55A009576BB /* YJButton.h */,
+				394E31571D24C55A009576BB /* YJButton.m */,
+				394E31491D24A87C009576BB /* YJChannelManagerView.h */,
+				394E314A1D24A87C009576BB /* YJChannelManagerView.m */,
+				394E314C1D24A92A009576BB /* YJChannelCell.h */,
+				394E314D1D24A92A009576BB /* YJChannelCell.m */,
+				394E314E1D24A92A009576BB /* YJChannelCell.xib */,
+				394E31531D24AE70009576BB /* YJChannelHeadSetionView.h */,
+				394E31541D24AE70009576BB /* YJChannelHeadSetionView.m */,
+				394E31591D24D088009576BB /* YJAddChannelHeadSetionView.h */,
+				394E315A1D24D088009576BB /* YJAddChannelHeadSetionView.m */,
 				39373EB51D23D44F00CCA959 /* Main.storyboard */,
 				39373EB81D23D44F00CCA959 /* Assets.xcassets */,
 				39373EBA1D23D44F00CCA959 /* LaunchScreen.storyboard */,
@@ -245,6 +276,8 @@
 			files = (
 				39373EBC1D23D44F00CCA959 /* LaunchScreen.storyboard in Resources */,
 				39373EB91D23D44F00CCA959 /* Assets.xcassets in Resources */,
+				394E31521D24AA53009576BB /* channel_edit_delete@2x.png in Resources */,
+				394E31501D24A92A009576BB /* YJChannelCell.xib in Resources */,
 				39373EB71D23D44F00CCA959 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,8 +304,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				39373EB41D23D44F00CCA959 /* ViewController.m in Sources */,
+				394E31551D24AE70009576BB /* YJChannelHeadSetionView.m in Sources */,
 				39373EB11D23D44F00CCA959 /* AppDelegate.m in Sources */,
+				394E315B1D24D088009576BB /* YJAddChannelHeadSetionView.m in Sources */,
 				39373EAE1D23D44F00CCA959 /* main.m in Sources */,
+				394E314B1D24A87C009576BB /* YJChannelManagerView.m in Sources */,
+				394E31581D24C55A009576BB /* YJButton.m in Sources */,
+				394E314F1D24A92A009576BB /* YJChannelCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +534,7 @@
 				39373ED81D23D44F00CCA959 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		39373ED91D23D44F00CCA959 /* Build configuration list for PBXNativeTarget "频道管理视图Tests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +543,7 @@
 				39373EDB1D23D44F00CCA959 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		39373EDC1D23D44F00CCA959 /* Build configuration list for PBXNativeTarget "频道管理视图UITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +552,7 @@
 				39373EDE1D23D44F00CCA959 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
