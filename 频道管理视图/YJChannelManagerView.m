@@ -122,7 +122,7 @@ static NSString *addChannelSetionReuseID = @"addChannelSetionReuseID";
     }
     else {
     
-        return self.hideChannelDataSource().count;
+        return _isEditable? self.hideChannelDataSource().count:0;
         
     }
 }
@@ -163,7 +163,7 @@ static NSString *addChannelSetionReuseID = @"addChannelSetionReuseID";
 
 - (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView {
 
-    return 2;
+    return _isEditable? 1:2;
 }
 
 - (UICollectionReusableView *)collectionView:(UICollectionView *)collectionView viewForSupplementaryElementOfKind:(NSString *)kind atIndexPath:(NSIndexPath *)indexPath {
