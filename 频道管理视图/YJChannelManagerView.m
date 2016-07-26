@@ -122,7 +122,7 @@ static NSString *addChannelSetionReuseID = @"addChannelSetionReuseID";
     }
     else {
     
-        return _isEditable? self.hideChannelDataSource().count:0;
+        return  self.hideChannelDataSource().count;
         
     }
 }
